@@ -1,16 +1,24 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "johngrib.hammerspoon.winmove"
 version = "0.1.1-1"
 
 local url = "github.com/johngrib/hammerspoon_winmove"
 local desc = "hammerspoon winmove"
 
-source = {url = "git://" .. url}
-description = {
-  summary = desc,
-  detailed = desc,
-  homepage = "https://" .. url,
-  license = "MIT",
+-- LuaDist source
+source = {
+  tag = "0.1.1-1",
+  url = "git://github.com/LuaDist-testing/johngrib.hammerspoon.winmove.git"
 }
+-- Original source
+-- source = {url = "git://" .. url}
+-- description = {
+--   summary = desc,
+--   detailed = desc,
+--   homepage = "https://" .. url,
+--   license = "MIT",
+-- }
 
 -- Dependencies:
 supported_platforms = {"macosx"}
